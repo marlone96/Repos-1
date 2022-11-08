@@ -1,0 +1,9 @@
+.font-primary {
+    color:#00abae;
+}
+
+body {
+    font-family: "monospace", sans-serif;
+    font-height: 20px;
+    font-weight:bold;
+}
