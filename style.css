@@ -40,7 +40,6 @@ ABOUT
 }
 
 #about img {
-    border-radius: 50%;
     width: 120px;
     margin-bottom: 10px;   
 }
@@ -75,6 +74,9 @@ ABOUT
 PROJECT
 
 ********************/
+.project_container{
+    display:flex;
+}
 
 #project {
     margin: 60px auto;
@@ -85,10 +87,21 @@ PROJECT
     text-align: center;
 }
 
-#project .card img {
-    width:100%;
+#project img {
+    width:40%;
+    height:65%;
+}
+.col .md-4{
+    display: flex;
 }
 
 #project .card-title {
     font-weight: bold;
+}
+#netflix_ {
+    display: flex;
+
+}
+#twitter_{
+display:flex;
 }
